@@ -5,8 +5,6 @@
 	import type { ActionData } from './$types';
 
 	export let form: ActionData;
-
-	$: console.log(form);
 </script>
 
 <div class="mx-auto max-w-sm pt-4">
